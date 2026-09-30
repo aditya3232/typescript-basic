@@ -1,0 +1,22 @@
+# Dependency
+node_modules/
+
+# Output build TypeScript
+dist/
+build/
+
+# Coverage hasil test
+coverage/
+
+# Environment & secret
+.env
+.env.*
+
+# Log
+*.log
+npm-debug.log*
+
+# File OS & editor
+.DS_Store
+.vscode/
+.idea/
