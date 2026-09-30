@@ -4,10 +4,10 @@
   "description": "```bash npm install --save-dev jest @types/jest ts-jest typescript ```",
   "license": "ISC",
   "author": "Muhammad Aditya",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
