@@ -1,0 +1,18 @@
+{
+  "name": "typescript-basic",
+  "version": "1.0.0",
+  "description": "```bash npm install --save-dev jest @types/jest ts-jest typescript ```",
+  "license": "ISC",
+  "author": "Muhammad Aditya",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.5.2",
+    "ts-jest": "^29.4.14",
+    "typescript": "^6.0.3"
+  }
+}
